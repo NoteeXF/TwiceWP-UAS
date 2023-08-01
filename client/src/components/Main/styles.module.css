@@ -1,0 +1,131 @@
+body{
+	background-color: #AFD0F3;
+	font-family: monospace;
+	font-size: 1rem; /* Ukuran font relatif */
+	line-height: 1.6;
+	color: #333;
+}
+
+.main_container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1.25rem; /* Padding relatif */
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #E8F6C1;
+	padding: 0.625rem; /* Padding relatif */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 11px;
+}
+
+.logo_nav img {
+	height: 2.5rem; /* Tinggi gambar relatif */
+}
+
+.search_form {
+	display: flex;
+	align-items: center;
+}
+
+.search_form input[type="text"] {
+	border: 1px solid #ddd;
+	border-radius: 0.25rem; /* Radius border relatif */
+	margin-right: 0.625rem; /* Margin relatif */
+}
+
+.search_form button[type="submit"] {
+	padding: 0.625rem 1.25rem; /* Padding relatif */
+	background-color: #0074d9;
+	color: #fff;
+	border: none;
+	border-radius: 0.25rem; /* Radius border relatif */
+	cursor: pointer;
+}
+
+.button_logout {
+	padding: 0.625rem 1.25rem; /* Padding relatif */
+	background-color: purple;
+	color: #fff;
+	border: none;
+	border-radius: 2.5rem; /* Radius border relatif */
+	cursor: pointer;
+}
+
+.tittle{
+	font-weight: bold;
+}
+
+.card {
+	border-radius: 0.875rem; /* Radius border relatif */
+	box-shadow: 0 4px 7px gray (0, 0, 0, 0.1);
+	overflow: hidden;
+	align-items: center;
+	background-color: #E8EBEA;
+}
+
+.card_image {
+	position: relative;
+}
+
+.card_image img {
+	width: 23.0625rem; /* Lebar gambar relatif */
+	height: auto;
+}
+
+.card_content {
+	padding: 0.625rem; /* Padding relatif */
+}
+
+.card_content p {
+	margin: 0;
+}
+
+.card_content button {
+	margin-top: 0.625rem; /* Margin relatif */
+	padding: 0.5rem 1rem; /* Padding relatif */
+	background-color: #5c26ea;
+	color: #fff;
+	border: none;
+	border-radius: 0.25rem; /* Radius border relatif */
+	cursor: pointer;
+}
+
+/* Add additional styles as needed to achieve the desired Unsplash-like appearance. */
+
+* {
+	box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 0.625rem; /* Padding relatif */
+}
+
+/* Clear floats after the columns */
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.floating_button {
+	position: fixed;
+	bottom: 1.875rem; /* Jarak dari bawah relatif */
+	right: 1.875rem; /* Jarak dari kanan relatif */
+	padding: 1.25rem; /* Padding relatif */
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.floating_button img {
+	width: 1.875rem; /* Ukuran gambar relatif */
+	height: 1.875rem; /* Ukuran gambar relatif */
+}
